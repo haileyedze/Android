@@ -13,13 +13,13 @@
         android:layout_weight="2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="#45cc2d"
+        android:background="#00BCD4"
         />
     <LinearLayout
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="#9e5043"
+        android:background="#FFEB3B"
         />
     <LinearLayout
         android:layout_weight="1"

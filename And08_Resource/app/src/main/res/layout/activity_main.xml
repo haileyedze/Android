@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#F4F4F4"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/matchwrap"
+                android:background="#fff"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="2dp"
+                >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="나의 당근"
+                    style="@style/menu"
+                    />
+
+                <ImageView
+                    style="@style/carrot"
+                    android:src="@drawable/ic_baseline_settings_24"
+                    android:layout_marginRight="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/matchwrap"
+                android:background="#fff"
+                android:orientation="horizontal"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_margin="15dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/cat"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_margin="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:text="닉네임"
+                        android:textSize="20dp"
+                        android:layout_margin="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="농성동 #3526967"
+                        android:textSize="16dp"
+                        android:layout_margin="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_margin="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:src="@drawable/forward"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/matchwrap"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    style="@style/matchwrap"
+                    android:background="@drawable/shape_carrot"
+                    android:layout_margin="20dp"
+                    android:padding="10dp">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="pay"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#f67529"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:gravity="bottom"
+                    android:text="중고거래는 이제 당근페이로 해보세요!"
+                    android:textSize="16dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/matchwrap"
+                android:background="#fff"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:text="사장님 메뉴"
+                    style="@style/menu2"
+                    />
+
+                <LinearLayout
+                    style="@style/matchwrap"
+                    android:background="#fff"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        style="@style/icon"
+                        android:src="@drawable/profile"
+                        />
+
+                    <TextView
+                        android:text="비즈프로필 관리"
+                        style="@style/sub"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/matchwrap"
+                    android:background="#fff"
+                    android:layout_marginBottom="0.5dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        style="@style/icon"
+                        android:src="@drawable/profile"
+                        />
+
+                    <TextView
+                        android:text="광고"
+                        style="@style/sub"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/matchwrap"
+                android:background="#fff"
+                android:layout_marginBottom="2dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:text="나의활동"
+                    style="@style/menu2"
+                    />
+
+                <LinearLayout
+                    style="@style/matchwrap"
+                    android:background="#fff"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/icon"
+                        android:src="@drawable/profile" />
+
+                    <TextView
+                        style="@style/sub"
+                        android:text="내 동네 설정" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/matchwrap"
+                    android:background="#fff"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/icon"
+                        android:src="@drawable/profile" />
+
+                    <TextView
+                        style="@style/sub"
+                        android:text="동네 인증하기" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/matchwrap"
+                    android:background="#fff"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        style="@style/icon"
+                        android:src="@drawable/profile"
+                        />
+
+                    <TextView
+                        android:text="키워드 알림"
+                        style="@style/sub"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/matchwrap"
+                    android:background="#fff"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        style="@style/icon"
+                        android:src="@drawable/profile"
+                        />
+
+                    <TextView
+                        android:text="모아보기"
+                        style="@style/sub"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/matchwrap"
+                    android:background="#fff"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        style="@style/icon"
+                        android:src="@drawable/profile"
+                        />
+
+                    <TextView
+                        android:text="당근가계부"
+                        style="@style/sub"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/matchwrap"
+                    android:background="#fff"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        style="@style/icon"
+                        android:src="@drawable/profile"
+                        />
+
+                    <TextView
+                        android:text="당근가계부"
+                        style="@style/sub"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/matchwrap"
+                    android:background="#fff"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        style="@style/icon"
+                        android:src="@drawable/profile"
+                        />
+
+                    <TextView
+                        android:text="당근가계부"
+                        style="@style/sub"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/matchwrap"
+                    android:background="#fff"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        style="@style/icon"
+                        android:src="@drawable/profile"
+                        />
+
+                    <TextView
+                        android:text="당근가계부"
+                        style="@style/sub"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_test"
+    android:orientation="vertical"
+    >
+    <!--백터로 그려줘서 어떤 화면에서도 깨지지 않음-->
+    <TextView
+        android:background="@drawable/shape_test2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:text="여기에 적용해보기"/>
+
+    <Button
+        android:text="글씨체"
+        android:textColor="@drawable/selector_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

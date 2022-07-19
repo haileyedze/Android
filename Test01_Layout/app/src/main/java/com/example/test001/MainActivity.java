@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 scImageGone();
             }
         });
-
     }
 
     public void imageGone(){

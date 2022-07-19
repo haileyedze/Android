@@ -9,6 +9,7 @@ public class StudentMain {
         //num1에 10 담아보기
         StudentMain sm = new StudentMain();
         sm.num1 = 10;
+        //syso <-
         System.out.println(sm.num1);
     }//main()
 }//class

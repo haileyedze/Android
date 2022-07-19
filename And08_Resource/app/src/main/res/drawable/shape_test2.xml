@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+    <solid
+        android:color="#123456"/>
+    <stroke
+        android:color="#991100"
+        android:width="10dp"
+        android:dashGap="10dp"
+        android:dashWidth="10dp"
+        />
+    <!--dashwidth : 점의 크기 dashGap : 점선 간격-->
+
+
+</shape>

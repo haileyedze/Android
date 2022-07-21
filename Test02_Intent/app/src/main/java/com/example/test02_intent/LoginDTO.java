@@ -11,6 +11,9 @@ public class LoginDTO implements Serializable {
         this.pw = pw;
     }
 
+    //public LoginDTO(EditText id, EditText pw) {
+    //}
+
     public String getId() {
         return id;
     }

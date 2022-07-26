@@ -125,7 +125,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else if(requestCode == REQ_SUB_CODE){
             Log.d("TAG", "SubActivity가 종료 되었음");
         }
-
     }
 
     @Override
@@ -137,8 +136,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         }else if(v.getId() == R.id.btn_gps){
             //gps ← 권한을 승인 받아야함, 현재 위치를 노출해야할 때
+            //현재위치를 얻어오기 위해서는 다른 권한이 필요함
+            Intent intent = new Intent(Intent.ACTION_VIEW
+            ,Uri.parse("https://www.google.com/maps?q=" + 35.1535583 + "," + 126.8879957 + "&z=" + 15)
+            );
+            startActivity(intent);
         }else if(v.getId() == R.id.btn_internet){
-
+            //webView ← 안드로이드에서 인터넷으로 연결해줄 수 있는 기능을 가진 객체
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.naver.com"));
+            startActivity(intent);
         }
     }
 }

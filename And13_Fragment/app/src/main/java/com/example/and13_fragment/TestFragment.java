@@ -28,7 +28,9 @@ public class TestFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 //btn_fragment.setText("버튼 눌림");
-                MainActivity.mainTs();
+                //MainActivity.mainMethod();
+                MainActivity activity = (MainActivity) getActivity();
+                activity.mainMethodI();//올바른 방식
             }
         });
 

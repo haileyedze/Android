@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Study_Android/WorkSpace/And14_AllView/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Study_Android/WorkSpace/And14_AllView/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Study_Android/WorkSpace/And14_AllView/app/src/main/res/layout/fragment_cya.xml" value="0.33" />
+        <entry key="..\:/Study_Android/WorkSpace/And14_AllView/app/src/main/res/layout/fragment_grid.xml" value="0.31645569620253167" />
         <entry key="..\:/Study_Android/WorkSpace/And14_AllView/app/src/main/res/layout/fragment_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/Study_Android/WorkSpace/And14_AllView/app/src/main/res/layout/fragment_recycler.xml" value="0.265625" />
         <entry key="..\:/Study_Android/WorkSpace/And14_AllView/app/src/main/res/layout/item_cyaview.xml" value="0.1" />
+        <entry key="..\:/Study_Android/WorkSpace/And14_AllView/app/src/main/res/layout/item_gridview.xml" value="0.36614583333333334" />
         <entry key="..\:/Study_Android/WorkSpace/And14_AllView/app/src/main/res/layout/item_listview.xml" value="0.1" />
       </map>
     </option>

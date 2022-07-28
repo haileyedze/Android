@@ -23,8 +23,9 @@ public class List_Adapter extends BaseAdapter {
     }
 
     //getter&setter 또는 생성자를 사용하면 해결 가능.
-    //ArrayList를 무조건 받아서 생성이 되기때문에
-    //오류날확률이 더적다.
+    //생성자를 사용하면 ArrayList를 무조건 받아서 생성이 되기때문에
+    //오류날확률이 더적다
+
     // 리스트뷰에 들어가는 아이템의 갯수를 지정함.
     // 5 ,== ArrayList.size()
     // index , size를 햇갈리면 안됨.
@@ -37,6 +38,7 @@ public class List_Adapter extends BaseAdapter {
     // 밖에서 해당하는 칸의 데이터가 필요한경우 return을 위한 메소드 ( ArrayList == ListView )
     @Override
     public Object getItem(int position) {
+
         return list.get(position);
     }
 

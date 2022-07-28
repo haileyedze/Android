@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        >
+
+        <ImageView
+            android:id="@+id/bg_img"
+            android:src="@color/color1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            />
+
+        <!--android:background="@drawable/layout_round"-->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/cat1"
+                app:civ_border_width="1dp"
+                app:civ_border_color="#03ffffff"
+                android:id="@+id/img_btn"
+                />
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/fm"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:text="LOVE FM"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:text="김태현의 정치쇼 3,4부"
+                    android:textColor="#fff"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/button"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/play"
+                />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
